@@ -26,3 +26,7 @@ Useful when using asynchronous prompts so that your prompts appear *after* the c
 
 ## Release History
 * 0.1.0 initial release
+
+---
+
+[![Analytics](https://ga-beacon.appspot.com/UA-3614308-6/stevenvachon/cli-clear)](https://github.com/igrigorik/ga-beacon "Google Analytics") [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/stevenvachon/cli-clear/trend.png)](https://bitdeli.com/free)
