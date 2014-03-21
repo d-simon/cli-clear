@@ -6,12 +6,12 @@ var util = require("util");
 module.exports = function(callback)
 {
 	var cmd = /^win/.test(process.platform) ? "cls" : "clear";
-	
+
 	exec(cmd, function(error, stdout, stderr)
 	{
 		util.puts(stdout);
-		
-		callback();
+
+		if (callback && typeof callback === 'function') callback();
 	});
 }
 
